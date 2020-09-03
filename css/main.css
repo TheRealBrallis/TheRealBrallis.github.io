@@ -406,6 +406,21 @@ span{
 
 /* MEDIA QUERIES */
 
+@media (min-width: 2000px) {
+    .portfolio-container1 {
+        padding: 5rem;
+    }
+
+    .portfolio-container2 {
+        padding: 0 5rem 5rem 5rem;
+    }
+
+    .about-section h2 {
+        padding-bottom: 2rem;
+    }
+    
+}
+
 @media screen and (max-width: 1100px) {
     .nav-links {
         width: 50%;
