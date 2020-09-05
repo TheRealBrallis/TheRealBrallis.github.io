@@ -215,6 +215,7 @@ section:nth-child(5)
 
 .hero-section p {
     letter-spacing: .1rem;
+    line-height: 1.5rem;
 }
 
 /* About section */
