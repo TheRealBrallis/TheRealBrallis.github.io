@@ -400,58 +400,69 @@ h1 {
 
 /* Contact Form section */
 
-.contact-text {
-    padding: 5rem 0 0 0;
-    font-size: 2rem;
+.contact-form {
+    width: 85%;
+    max-width: 600px;
+    background: #f8f8f8;
+    transform: translate(-50%, -50%);
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 20px #000000b3;
+    position: relative;
+    left: 50%;
+    top: 50%;
+}
+
+.contact-form h1 {
+    margin-top: 0;
+    font-weight: 400;
     background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.contact-form {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    background-color: white;
-    margin: auto;
-    border-radius: 20px;
-    box-shadow:  11px 11px 20px 0px rgba(0,0,0,0.42);
-    margin-top: 4rem;
+.txtb {
+    border: 1px solid grey;
+    padding: 12px 18px;
+    margin: 8px 0;
+    border-radius: 8px;
+}
+
+.txtb label {
+    display: block;
+    text-align: left;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.txtb textarea {
+    height: 20rem;
+}
+
+.txtb input, .txtb textarea {
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
+}
+
+.btn {
+    display: block;
     background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
-}
-
-input{
-    width: 80%;
-    margin: auto;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    border: none;
-    border-bottom: 1px solid #222;
-    padding: 1em;
-    border-radius: 3px;
-}
-
-textarea{
-    width: 90%;
-    height:10em;
-    margin: auto;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-}
-
-span{
-    color: #222;
-    margin-top: 1rem;
-    font-size: 1.5rem;
-}
-
-.submit {
-    width:50%;
-    border: none;
-    border-radius: 10px;
-    background-color: #f8f8f8;
-}
-
-.submit:hover {
+    padding: 14px 0;
+    color:  white;
+    text-transform: uppercase;
     cursor: pointer;
+    margin-top: 8px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.contact-form a {
+    text-decoration: none;
 }
