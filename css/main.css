@@ -550,3 +550,33 @@ h1 {
     padding-top: 1.25rem;
     width: 100%;
 }
+
+/* Media Queries */
+
+@media (max-height: 760px) {
+    .hero-section {
+        top: 18rem;
+    }
+
+    .weird-shape {
+        margin: 2rem 10rem 0 0;
+    }
+
+    .about-image img{
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    #portfolio h2{
+        padding-top: 2rem;
+    }
+
+    .portfolio-container1 {
+        padding-top: 3rem;
+    }
+
+    .portfolio-container2 { 
+        margin-bottom: 4rem;
+    }
+
+}
